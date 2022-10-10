@@ -1,0 +1,24 @@
+.container {
+    width: 500px;
+    height: 700px;
+    background-color: orange;
+    position: relative;
+    font-size: 50px;
+    text-align: center:
+}
+
+.player {
+    width: 50px; 
+    height: 70px;
+    background-color: blue;
+    position: absolute
+
+}
+
+.ground {
+    width: 75px;
+    height: 15px;
+    background-color: chartreuse;
+    position: absolute;
+    z-index: 1;
+}
