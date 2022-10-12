@@ -22,3 +22,31 @@
     position: absolute;
     z-index: 1;
 }
+
+.nft {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    content: url("nft.png");
+    position: absolute;
+    z-index: 2;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-column: auto auto auto;
+
+    padding: 10px;
+}
+
+.grid-item {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0, 0.8);
+    content:url("nft.png");
+}
+
+.hide {
+    visibility: hidden;
+}
